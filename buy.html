@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>financial markets
+    </title>
+      <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+  <nav class="flex items-center justify-between flex-wrap text-black p-6 shadow">
+    <div class="flex items-center flex-shrink-0 text-black mr-6">
+
+        <span class="font-semibold text-3xl tracking-tight">FinancialMarkets</span>
+    </div>
+    <div class="block lg:hidden">
+        <button onclick="toggle()"
+            class="flex items-center px-3 py-2 border rounded text-black border-black hover:text-black hover:border-black">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <title>Menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+        </button>
+    </div>
+    <div id="navBar" class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div class="text-sm lg:flex-grow">
+            <a href="home.html"
+                class="block mt-4 lg:inline-block lg:mt-0 text-blue-600 text-base hover:text-black mr-4">
+                Home
+            </a>
+            <a href="buy.html"
+                class="block mt-4 lg:inline-block lg:mt-0 text-blue-600 text-base hover:text-black mr-4">
+                Buy Ea
+            </a>
+            <a href="free.html" class="block mt-4 lg:inline-block lg:mt-0 text-blue-600 mr-4 text-base hover:text-black">
+                Free Ea
+            </a>
+            <a href="contact.html" class="block mt-4 lg:inline-block lg:mt-0 lg:text-white text-blue-600 lg:p-2 rounded-lg lg:bg-blue-600 mr-4  text-base hover:text-black">
+                Contact
+            </a>
+        </div>
+    </div>
+</nav>
+
+<section>
+    <p class="text-center text-red-700 my-3">Note: These are the Ea's for sale. These are investor accounts for monitoring before you buy. </p>
+    <div class="sm:flex justify-around mt-8">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto mb-8">
+            <img class="w-full h-1/2" src="img3.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">The Position EA</div>
+              <p class="text-gray-700 text-base mb-2">
+                <b>Server: </b> Exness trial2 <br>
+                <b>Login:</b> 22240169 <br>
+                <b>Password: </b>POSItion1 <br>
+                <b>MT4</b>
+              </p>
+              <a href="" class="bg-blue-400 text-white p-1 rounded-lg">$300</a>
+
+            </div>
+
+          </div>
+
+          <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto mb-8">
+            <img class="w-full h-1/2" src="img4.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">CashCow</div>
+              <p class="text-gray-700 text-base mb-2">
+                <b>Server: </b> Exness Real6 <br>
+                <b>Login:</b> 16317574 <br>
+                <b>Password: </b>CashCow001 <br>
+                <b>MT4</b>              </p>
+                <a href="" class="bg-blue-400 text-white p-1 rounded-lg">$300</a>
+
+            </div>
+  
+          </div>
+
+
+
+    </div>
+    <a href="https://t.me/Prinvestcashsystem1" class=" w-24 p-2 rounded-xl bg-blue-600 text-white mx-auto text-center block">BUY NOW</a>
+
+</section>
+
+
+
+<script>
+
+  function toggle(){
+      document.getElementById('navBar').classList.toggle('hidden');
+  }
+</script>
+</body>
+</html>
